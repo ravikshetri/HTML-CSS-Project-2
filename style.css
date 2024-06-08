@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.container{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(pexels-maxyne-barcel-10402282\ 1\ \(1\).png);
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 35px;
+}
+
+ul>li>a{
+    text-decoration: none;
+    color: #FFC233;
+    font-size: 20px;
+    font-weight: 500;
+    
+}
+
+ul>li{
+    list-style: none;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav>button{
+    /* margin-top: 70px; */
+    background-color: #FF515F;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+    font-weight: 650px;
+    width: 120px;
+    height: 40px;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main>h1{
+    line-height: 99px;
+    font-size: 90px;
+    font-weight: 800;
+    color: #FFC233;
+    text-align: center;
+}
+
+.main>button{
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    width: 230px;
+    border-radius: 5px;
+    background-color: #FF515F;
+    color: white;
+    padding: 17px 9px;
+    border: none;
+
+}
+
+#btm-logo{
+    width: 100px;
+    height: 100px;
+    margin-left:1230px;
+    position: fixed;
+    bottom: 13px;
+    right: 13;
+}
